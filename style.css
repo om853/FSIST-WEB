@@ -80,7 +80,7 @@ overflow-x: hidden;
     --liner-color_2:#161d28;
  } 
 header{
-    background: url(../img/slider/slider_bg.jpg) center no-repeat;
+    background: url(slider_bg.jpg) center no-repeat;
     background-size: cover;
 width:  100%;
 font-family: var(--heading-font);
@@ -1254,7 +1254,7 @@ font-weight: 600;
           /* End sec  */
           /* <!-- start about--> */
           .about{
-            background:url(../img/bg/area_bg01.jpg);
+            background:url(area_bg01.jpg);
           padding: 100px 30px;
           display: flex;
           flex-direction: column;
@@ -1723,7 +1723,7 @@ font-weight: 600;
 
      .about .rating .con-image:nth-of-type(2) div:nth-of-type(1){
         height: 60vh;
-        background: url(../img/gallery/gallery03.jpg) center;
+        background: url(gallery03.jpg) center;
         background-size: cover;
         animation: galary ease 20s infinite;
         border: 5px solid #555;
@@ -2053,7 +2053,7 @@ font-weight: 600;
          /* start season  */
          .season{
             padding:30px 20px 150px;
-            background: url(../img/bg/roadmap_bg.jpg) center;
+            background: url(roadmap_bg.jpg) center;
             background-size: cover;
             color: #fff;
          }

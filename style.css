@@ -2190,7 +2190,7 @@ font-weight: 600;
 
             opacity: .3;
          }
-         @media (max-width:400px) {
+         @media (max-width:450px) {
             .season{
                 padding:unset;
                 background: url(roadmap_bg.jpg) center;
@@ -2724,7 +2724,7 @@ padding: 0 40px;
             border-radius: 10px;
             z-index: 12345467589678;
          }
-         @media (max-width:400px) {
+         @media (max-width:450px) {
             footer{
                 display: grid;
                 grid-template-columns: 1fr;

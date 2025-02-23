@@ -1729,16 +1729,16 @@ font-weight: 600;
         border: 5px solid #555;
      }
      @keyframes galary {
-        25%{background: url(../img/gallery/gallery04.jpg) center;
+        25%{background: url(gallery04.jpg) center;
             background-size: cover;
         }
-        50%{background: url(../img/gallery/gallery05.jpg) center;
+        50%{background: url(gallery05.jpg) center;
             background-size: cover;
         }
-        75%{background: url(../img/gallery/gallery03.jpg) center;
+        75%{background: url(gallery03.jpg) center;
             background-size: cover;
         }
-        100%{background: url(../img/gallery/gallery02.jpg) center;
+        100%{background: url(gallery02.jpg) center;
             background-size: cover;
         }
      }
@@ -1944,7 +1944,7 @@ font-weight: 600;
             }
          .member .container-2{
             height: 80vh;
-            background:linear-gradient(to top , rgba(0,0,0,0.3) ,transparent ,rgba(0,0,0,0.3)) , url(../img/bg/video_bg.jpg) fixed center;
+            background:linear-gradient(to top , rgba(0,0,0,0.3) ,transparent ,rgba(0,0,0,0.3)) , url(video_bg.jpg) fixed center;
             background-size: cover;
             width: 100vw;
             display: flex;

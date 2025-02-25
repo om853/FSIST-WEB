@@ -6,7 +6,7 @@
 scroll-behavior: smooth;
 
 }
-@media (max-width:400px) {
+@media (max-width:430px) {
     *{
 overflow-x: auto;
 
@@ -733,7 +733,7 @@ border: none;
             }
 
            /* End nav  */
-           @media (max-width:400px) {
+           @media (max-width:430px) {
            nav .bi-search ,
            nav .col{
                 display: none;
@@ -746,7 +746,7 @@ border: none;
                flex-direction: row;
                flex-wrap: nowrap;
                gap: 30px;
-               padding: 10px;
+               padding: 20px;
                justify-content: space-between;
 
                
@@ -919,7 +919,7 @@ height: 130vh;
 }
     div.main .leftMain img{
     width: 90%;}
-    @media (max-width:400px) {
+    @media (max-width:430px) {
         div.main .rightMain div.bottom ul li a img{
            width: 80px;
         }
@@ -938,26 +938,7 @@ height: 130vh;
             position: relative;
             flex-direction: column;
            }
-          .main::after{
-            clip-path: polygon(0 0, 0 100%, 100% 100%);
-            content: '';
-            background: var(--main-color);
-            position: absolute;
-            width: 50%;
-            height: 50px;
-            left: 0;
-            bottom: 0;
-          }
-          .main::before{
-            content: '';
-            background: var(--main-color);
-            position: absolute;
-            width: 50%;
-            height: 50px;
-            clip-path: polygon(100% 0, 0 100%, 100% 100%);
-            right: 0;
-            bottom: 0;
-          }
+
            div.main .rightMain{
             align-items: center;
             display: flex;
@@ -1064,20 +1045,7 @@ height: 130vh;
             animation: lopo 1s linear infinite alternate  ;
         }
 
-@keyframes lopo {
-    0%{
-        transform: translate(0px);
-    }
-    100%{
-        transform: translateY(-20px);
-    }
-    
-}
 
-
-
-
-        
     }
 
 
@@ -1178,7 +1146,7 @@ font-weight: 600;
 
 
          }
-         @media(max-width:400px){
+         @media(max-width:430px){
             .gaming{
                 display: grid;
                 grid-template-columns: 1fr ;
@@ -1200,7 +1168,7 @@ font-weight: 600;
          } */
 
          .gaming .card > div:nth-of-type(1) img{
-            width:150px;
+            width:190px;
             /* height: 100px; */
             top: 50%;
          }
@@ -1487,7 +1455,7 @@ font-weight: 600;
             height: 90%;
             position: absolute;
 }
-        @media (max-width:400px) {
+        @media (max-width:430px) {
             .sec-title{
                 display: flex;
                 justify-content: center;
@@ -1654,7 +1622,7 @@ font-weight: 600;
           
 
          }
-         @media (max-width:400px) {
+         @media (max-width:430px) {
             .about .human{
             
                 display: grid;
@@ -1787,7 +1755,7 @@ font-weight: 600;
             /* left: 100%; */
         }
     }
-    @media (max-width:400px) {
+    @media (max-width:430px) {
      .about .rating .con-image:not(:nth-child(2)) img{
         display: none;
      }
@@ -2005,7 +1973,7 @@ font-weight: 600;
             font-size: 20px;
 
          }
-         @media (max-width:400px) {
+         @media (max-width:430px) {
             .member .container{
                 width:90%;
  
@@ -2191,7 +2159,7 @@ font-weight: 600;
 
             opacity: .3;
          }
-         @media (max-width:450px) {
+         @media (max-width:430px) {
             .season{
                 padding:unset;
                 background: url(roadmap_bg.jpg) center;
@@ -2344,11 +2312,7 @@ font-weight: 600;
                 transition: .3s;
                 
              }
-             .season .container .right .card:hover img ,
-             .season .container .right .card:nth-of-type(1) img{
-    
-                opacity: .3;
-             }
+             
             
          }
          /* end season  */
@@ -2494,9 +2458,13 @@ font-weight: 600;
            background: var(--main-color) ;
         }
          /* end deficult card  */
-         @media (max-width:400px) {
+         @media (max-width:430px) {
          .deficult{
             width: max-content;
+         }
+         .deficult .bottom{
+            align-items: center;
+            justify-content: center;
          }
 
          .deficult .bottom .card{
@@ -2524,6 +2492,7 @@ font-weight: 600;
          .deficult .top{
             justify-content: unset;
             gap: 20px;
+            align-items: center;
          }
 
 
@@ -2725,13 +2694,15 @@ padding: 0 40px;
             border-radius: 10px;
             z-index: 12345467589678;
          }
-         @media (max-width:450px) {
+         @media (max-width:430px) {
             footer{
                 display: grid;
                 grid-template-columns: 1fr;
                 gap: 50px;
-                width:max-content;
+                width: calc( max-content + 50px);
+
             padding: 100px 35px;
+            overflow: hidden;
 
             }
          footer > section{
@@ -2768,7 +2739,7 @@ padding: 0 40px;
         .bottom-9{
             /* gap: 3px; */
             justify-content: unset;
-            width: max-content;
+            width: calc( max-content + 50px);
 
         }
 
